@@ -11,6 +11,7 @@ Open the calc_applescript.scpt file and export as application
 ref: http://apple.stackexchange.com/questions/8299/how-do-i-make-an-applescript-file-into-a-mac-app
 
 # Example run:
+```
 $ python python_filemaker.py
 
 7-Zip [64] 9.20  Copyright (c) 1999-2010 Igor Pavlov  2010-11-18
@@ -327,3 +328,4 @@ sending:eicar.zip
 sending:eicar_encrypt.zip
 sending:eicardmg.dmg
 sending:SimpleJavaCalculator.jar
+```
