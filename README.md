@@ -5,8 +5,7 @@ Malicious file maker/sender to create and send malicious attachments to test you
 
 
 # Creating the applescript app
-Creating the apple script <br>
-Open the calc_applescript.scpt file and export as application, zip file should also contain a working version.
+Open the calc_applescript.scpt file with script editor and export as application, zip file should also contain a working version.
 
 ref: http://apple.stackexchange.com/questions/8299/how-do-i-make-an-applescript-file-into-a-mac-app
 
