@@ -1,12 +1,12 @@
 # malicious_file_maker
-malicious file maker/sender to create and send malicious attachments to test your email filter/alerting .
+Malicious file maker/sender to create and send malicious attachments to test your email filter/alerting.
 
-* Created to work on OS X using Keka to do most of the archiving functions. Easy enough to change for your distro
+* Created to work on OS X using Keka to do most of the archiving functions. Easy enough to change for your distro.
 
 
-# creating the applescript app
-Creating the apple script
-Open the calc_applescript.scpt file and export as application
+# Creating the applescript app
+Creating the apple script <br>
+Open the calc_applescript.scpt file and export as application, zip file should also contain a working version.
 
 ref: http://apple.stackexchange.com/questions/8299/how-do-i-make-an-applescript-file-into-a-mac-app
 
