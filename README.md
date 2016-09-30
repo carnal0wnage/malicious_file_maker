@@ -9,6 +9,9 @@ Open the calc_applescript.scpt file with script editor and export as application
 
 ref: http://apple.stackexchange.com/questions/8299/how-do-i-make-an-applescript-file-into-a-mac-app
 
+![alt text](https://cloud.githubusercontent.com/assets/735360/18999317/fc31bea8-870a-11e6-9051-faed2f9a5393.png "Applesecript compile")
+
+
 # Example run:
 ```
 $ python python_filemaker.py
@@ -328,3 +331,7 @@ sending:eicar_encrypt.zip
 sending:eicardmg.dmg
 sending:SimpleJavaCalculator.jar
 ```
+
+Inbox:
+![alt text](https://cloud.githubusercontent.com/assets/735360/18999303/e1386048-870a-11e6-9b41-a8730311939e.png "inbox")
+
