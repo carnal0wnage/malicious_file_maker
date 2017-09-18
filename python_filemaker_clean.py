@@ -179,6 +179,7 @@ def write_file(path, text):
     file_write.write(text)
     file_write.close()
     
+#make sure you have enabled imap :-)
 def send_gmail(to, subject, text, attach):
   try:
     msg = MIMEMultipart()
@@ -378,7 +379,8 @@ make_xz('calcvbs.xz', 'calc.vbs')
 attachments = list_files(directory)
 for file in attachments:
     print "sending:" + file
-    send_sendgrid("unlucky@company.xyz", file, file, file)
+    #send_sendgrid("unlucky@company.xyz", file, file, file)
+    send_gmail("unlucky@company.xyz", file, file, file)
     
 
 
