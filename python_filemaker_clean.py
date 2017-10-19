@@ -11,7 +11,6 @@ from email.MIMEText import MIMEText
 from email import Encoders
 
 
-eicar_string ="X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*%"
 
 gmail_user = "XXXXX"
 gmail_pwd = "XXXXX"
